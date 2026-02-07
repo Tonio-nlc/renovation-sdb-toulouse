@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rénovation Salle de Bain à Toulouse - Mise en Relation avec des Artisans Qualifiés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1>Rénovation de Salle de Bain<br>à Toulouse et Agglomération</h1>
+                <p class="hero-subtitle">Artisans qualifiés de la région toulousaine. Devis adaptés à votre projet, sans engagement.</p>
+                <p class="hero-qualifier">Seuls les projets avec budget et délai définis sont transmis aux artisans.</p>
+                <a href="#formulaire" class="btn-primary">Obtenez votre devis maintenant</a>
+                <div class="hero-badges">
+                    <div class="badge">
+                        <svg width="24" height="24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span>Service 100% Gratuit</span>
+                    </div>
+                    <div class="badge">
+                        <svg width="24" height="24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span>Artisans Locaux</span>
+                    </div>
+                    <div class="badge">
+                        <svg width="24" height="24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        <span>Sans Engagement</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">
+                        <svg class="stat-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8.5c-1.5-1-3-1.5-5-1.5-3.3 0-6 2.7-6 6s2.7 6 6 6c2 0 3.5-0.5 5-1.5"></path>
+                            <line x1="3" y1="11" x2="11" y2="11"></line>
+                            <line x1="3" y1="15" x2="11" y2="15"></line>
+                            <line x1="5" y1="5" x2="19" y2="19"></line>
+                        </svg>
+                        Gratuit
+                    </div>
+                    <div class="stat-label">Service Sans Frais</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">
+                        <svg class="stat-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        Toulouse
+                    </div>
+                    <div class="stat-label">Zone d'Intervention</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">
+                        <svg class="stat-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        24-48h
+                    </div>
+                    <div class="stat-label">Délai de Rappel</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Qualification Form -->
+    <section class="form-section" id="formulaire">
+        <div class="container">
+            <div class="form-header">
+                <h2>Décrivez Votre Projet de Rénovation</h2>
+                <p>Remplissez ce formulaire en 2 minutes. Nous transmettrons votre demande à des artisans qualifiés à Toulouse qui vous contacteront rapidement.</p>
+                <p class="form-qualifier">Ce formulaire permet de qualifier votre projet et d'éviter les échanges inutiles. Seules les demandes avec un budget et un délai clairs, accompagnées de photos, sont transmises aux artisans partenaires.</p>
+            </div>
+
+            <form action="https://formspree.io/f/xeezdzlj" method="POST" class="lead-form" enctype="multipart/form-data">
+                <div class="form-grid">
+                    <!-- Type de rénovation -->
+                    <div class="form-group full-width">
+                        <label for="type-renovation">
+                            Type de rénovation souhaité
+                            <span class="required">*</span>
+                        </label>
+                        <select id="type-renovation" name="type_renovation" required>
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="baignoire-douche">Remplacement baignoire → douche</option>
+                            <option value="renovation-complete">Rénovation complète</option>
+                            <option value="douche-creation-modification">Douche (Création ou Modification)</option>
+                            <option value="accessibilite">Accessibilité (Senior / PMR)</option>
+                        </select>
+                    </div>
+
+                    <!-- Budget -->
+                    <div class="form-group">
+                        <label for="budget">
+                            Budget prévu
+                            <span class="required">*</span>
+                        </label>
+                        <select id="budget" name="budget" required>
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="5000-10000">5 000 € - 10 000 €</option>
+                            <option value="10000-20000">10 000 € - 20 000 €</option>
+                            <option value="plus-20000">Plus de 20 000 €</option>
+                        </select>
+                    </div>
+
+                    <!-- Délai -->
+                    <div class="form-group">
+                        <label for="delai">
+                            Délai souhaité pour les travaux
+                            <span class="required">*</span>
+                        </label>
+                        <select id="delai" name="delai" required>
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="des-que-possible">Dès que possible</option>
+                            <option value="1-2-mois">1-2 mois</option>
+                            <option value="2-4-mois">2-4 mois</option>
+                            <option value="4-6-mois">4-6 mois</option>
+                        </select>
+                    </div>
+
+                    <!-- Propriétaire -->
+                    <div class="form-group full-width">
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="proprietaire" name="proprietaire" value="oui">
+                            <label for="proprietaire" class="checkbox-label">
+                                Je suis propriétaire du logement concerné
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Photos -->
+                    <div class="form-group full-width">
+                        <label for="photos">
+                            Photos actuelles de votre salle de bain
+                            <span class="required">*</span>
+                            <span class="field-help">(Minimum 2 photos requises)</span>
+                        </label>
+                        <div class="file-upload-wrapper">
+                            <input type="file" id="photos" name="photos" accept="image/*" multiple required>
+                            <div class="file-upload-hint">
+                                <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4m0 0v4m0-4h4m-4 0h-4m13-5l-4-4m0 0l-4 4m4-4v12"/>
+                                    <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                </svg>
+                                <p><strong>Cliquez pour ajouter vos photos</strong> ou glissez-déposez</p>
+                                <p class="file-formats">JPG, PNG, HEIC - Max 10 MB par photo</p>
+                            </div>
+                        </div>
+                        <p class="warning-message">
+                            <svg width="20" height="20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm1 15H9v-2h2v2zm0-4H9V5h2v6z"/>
+                            </svg>
+                            <strong>Important :</strong> Sans photos, votre demande ne pourra pas être transmise aux artisans. Les photos permettent aux professionnels d'évaluer précisément votre projet avant de vous contacter.
+                        </p>
+                    </div>
+
+                    <!-- Nom -->
+                    <div class="form-group">
+                        <label for="nom">
+                            Nom
+                            <span class="required">*</span>
+                        </label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+
+                    <!-- Téléphone -->
+                    <div class="form-group">
+                        <label for="telephone">
+                            Téléphone
+                            <span class="required">*</span>
+                        </label>
+                        <input type="tel" id="telephone" name="telephone" pattern="[0-9\s\+\-\(\)]{10,}" required>
+                    </div>
+
+                    <!-- Consentement -->
+                    <div class="form-group full-width">
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="consentement" name="consentement" required>
+                            <label for="consentement" class="checkbox-label">
+                                <span class="required">*</span>
+                                Je suis prêt(e) à être contacté(e) rapidement par un professionnel pour un devis.
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn-submit">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                            Envoyer Ma Demande de Devis
+                        </button>
+                        <p class="form-footer-text">
+                            Service gratuit • Sans engagement • Transmission sous 24-48h • Données sécurisées
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Before/After Gallery -->
+    <section class="carousel-section">
+        <div class="container">
+            <h2>Exemples de Rénovations</h2>
+            <p class="section-subtitle">Inspirez-vous de projets de transformation réalisés par nos artisans partenaires</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="111.png" alt="Avant/Après rénovation salle de bain">
+                </div>
+                <div class="gallery-card">
+                    <img src="22.png" alt="Avant/Après rénovation salle de bain">
+                </div>
+                <div class="gallery-card">
+                    <img src="33.png" alt="Avant/Après rénovation salle de bain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <h2>Notre Processus de Sélection</h2>
+            <p class="section-subtitle">Nous travaillons uniquement avec des artisans locaux qualifiés et expérimentés</p>
+            <p class="trust-premium-statement">Nous privilégions la qualité des projets plutôt que le volume.</p>
+
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>Artisans Locaux Spécialisés</h3>
+                    <p>Nos partenaires sont basés à Toulouse et dans l'agglomération. Ils sont spécialisés dans la rénovation de salles de bain.</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="9" y1="15" x2="15" y2="15"></line>
+                        </svg>
+                    </div>
+                    <h3>Validation des Demandes</h3>
+                    <p>Votre projet est transmis uniquement si votre budget et votre délai sont clairement définis, pour éviter les échanges inutiles.</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <h3>Contact Direct</h3>
+                    <p>Mise en relation rapide et directe avec les artisans. Aucun intermédiaire commercial, vous échangez directement avec les professionnels.</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <path d="M9 12l2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3>Assurances Professionnelles</h3>
+                    <p>Les artisans partenaires disposent des assurances et qualifications requises pour leurs interventions (RC Pro, décennale).</p>
+                </div>
+            </div>
+
+            <div class="certifications-bar">
+                <p class="certifications-intro">Nos artisans partenaires disposent des qualifications et assurances courantes du secteur :</p>
+                <div class="certifications-logos">
+                    <div class="cert-logo">
+                        <img src="qualibat-logo.png" alt="Qualibat" class="cert-logo-img">
+                    </div>
+                    <div class="cert-logo">
+                        <img src="rge-logo.png" alt="RGE - Reconnu Garant Environnement" class="cert-logo-img">
+                    </div>
+                    <div class="cert-logo">
+                        <img src="rcpro-logo.png" alt="Responsabilité Civile Professionnelle" class="cert-logo-img">
+                    </div>
+                    <div class="cert-logo">
+                        <img src="decennale-logo.png" alt="Garantie Décennale" class="cert-logo-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>Ce que disent nos utilisateurs</h2>
+
+            <div class="testimonials-carousel-container">
+                <div class="testimonials-carousel-wrapper">
+                    <div class="testimonials-carousel-track">
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">J'ai été rappelé rapidement après ma demande. Le projet a bien été compris et l'artisan proposé correspondait à mon budget.</p>
+                            <p class="testimonial-author">Marc D. — Toulouse (31)</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">Service clair et efficace. Aucun démarchage inutile, uniquement un contact sérieux pour mon projet de rénovation.</p>
+                            <p class="testimonial-author">Sophie L. — Colomiers</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">Bonne surprise. Le formulaire permet d'expliquer précisément le besoin, ce qui évite les échanges inutiles.</p>
+                            <p class="testimonial-author">Julien P. — Blagnac</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">Mise en relation rapide avec un professionnel assuré. J'ai apprécié la transparence dès le départ.</p>
+                            <p class="testimonial-author">Nathalie R. — Toulouse Centre</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">Service simple à utiliser. J'ai été contacté dans les délais annoncés, sans pression commerciale.</p>
+                            <p class="testimonial-author">Eric M. — Tournefeuille</p>
+                        </div>
+
+                        <!-- Duplicated for infinite loop -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">J'ai été rappelé rapidement après ma demande. Le projet a bien été compris et l'artisan proposé correspondait à mon budget.</p>
+                            <p class="testimonial-author">Marc D. — Toulouse (31)</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <p class="testimonial-text">Service clair et efficace. Aucun démarchage inutile, uniquement un contact sérieux pour mon projet de rénovation.</p>
+                            <p class="testimonial-author">Sophie L. — Colomiers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Questions Fréquentes</h2>
+            <p class="section-subtitle">Tout savoir sur notre service de mise en relation</p>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Votre service est-il vraiment gratuit ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oui, notre service de mise en relation est 100% gratuit pour vous.</p>
+                        <p>Nous ne facturons aucun frais, ni commission. Vous remplissez le formulaire, vous êtes contacté par des artisans qualifiés, et vous choisissez librement le professionnel qui vous convient.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Suis-je obligé d'accepter un devis ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolument pas. Notre service est sans aucun engagement.</p>
+                        <p>Vous êtes libre de comparer les devis reçus, de négocier, ou de refuser toutes les propositions si elles ne correspondent pas à vos attentes. Aucune obligation d'achat ou de signature.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Qui va me contacter ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Vous serez contacté directement par des artisans partenaires basés à Toulouse et dans l'agglomération.</p>
+                        <p>Ce sont des professionnels locaux du bâtiment, spécialisés dans la rénovation de salles de bain. Ils prendront contact avec vous par téléphone ou email selon vos préférences, pour échanger sur votre projet et planifier une visite si nécessaire.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Sous quel délai vais-je être rappelé ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nous transmettons votre demande aux artisans partenaires dans les plus brefs délais, généralement sous 24 à 48 heures ouvrées.</p>
+                        <p>Le délai de rappel dépend ensuite de la disponibilité des professionnels et de la complexité de votre projet. Les demandes avec un budget défini et des photos sont traitées en priorité.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Combien de devis vais-je recevoir ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nous transmettons votre demande à plusieurs artisans qualifiés de notre réseau. En fonction de la disponibilité des professionnels et de la nature de votre projet, vous pouvez recevoir jusqu'à 3 propositions de devis.</p>
+                        <p>Cela vous permet de comparer les prix, les délais d'intervention et les approches proposées avant de faire votre choix.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Intervenez-vous partout en France ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Non, notre service couvre exclusivement Toulouse et son agglomération.</p>
+                        <p>Nous travaillons uniquement avec des artisans locaux de la région toulousaine pour garantir des interventions rapides et un suivi de qualité. Si vous êtes en dehors de cette zone, nous ne pourrons malheureusement pas traiter votre demande.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Comment sont sélectionnés les artisans partenaires ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nous travaillons uniquement avec des artisans basés à Toulouse et son agglomération, spécialisés dans la rénovation de salles de bain.</p>
+                        <p>Nos partenaires disposent des qualifications et assurances requises pour leurs interventions (RC Pro, décennale). Nous vérifions également leur sérieux et leur disponibilité avant de leur transmettre des demandes.</p>
+                        <p>Cependant, nous n'intervenons pas dans l'exécution des travaux. Il vous appartient de vérifier les références, assurances et devis de l'artisan avant de signer un contrat.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Pourquoi certains projets ne sont pas transmis aux artisans ?</span>
+                        <svg class="faq-icon" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Pour éviter les échanges inutiles et respecter le temps de nos artisans partenaires, nous ne transmettons que les projets qui correspondent aux critères suivants :</p>
+                        <ul>
+                            <li><strong>Budget défini :</strong> Vous avez une idée claire du montant que vous êtes prêt à investir.</li>
+                            <li><strong>Délai précisé :</strong> Vous savez quand vous souhaitez réaliser les travaux.</li>
+                            <li><strong>Photos fournies :</strong> Minimum 2 photos de la salle de bain actuelle pour permettre une première évaluation.</li>
+                            <li><strong>Localisation :</strong> Le bien est situé à Toulouse ou dans l'agglomération.</li>
+                        </ul>
+                        <p>Si votre demande ne remplit pas ces critères, elle ne sera pas transmise. Cela garantit que les artisans reçoivent uniquement des demandes sérieuses et exploitables.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Rénovation Salle de Bain Toulouse</h3>
+                    <p>Service gratuit de mise en relation avec des artisans qualifiés pour vos projets de rénovation de salle de bain à Toulouse et agglomération.</p>
+                    <div class="footer-certifications">
+                        <span class="cert-badge">100% Gratuit</span>
+                        <span class="cert-badge">Sans Engagement</span>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Types de Projets</h4>
+                    <ul>
+                        <li>Remplacement baignoire par douche</li>
+                        <li>Rénovation complète</li>
+                        <li>Création ou modification de douche</li>
+                        <li>Adaptation PMR / Senior</li>
+                        <li>Mise aux normes</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Zone d'Intervention</h4>
+                    <ul>
+                        <li>Toulouse Centre</li>
+                        <li>Toulouse Métropole</li>
+                        <li>Colomiers</li>
+                        <li>Tournefeuille</li>
+                        <li>Blagnac</li>
+                        <li>Balma</li>
+                        <li>L'Union</li>
+                        <li>Ramonville-Saint-Agne</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <svg width="16" height="16" fill="currentColor">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                            </svg>
+                            <a href="mailto:contact@renovation-sdb-toulouse.fr">contact@renovation-sdb-toulouse.fr</a>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" fill="currentColor">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                            </svg>
+                            Toulouse et agglomération uniquement
+                        </li>
+                    </ul>
+                    <p style="margin-top: 1.5rem; line-height: 1.7; color: rgba(255, 255, 255, 0.8);">
+                        <strong>Service de mise en relation</strong><br>
+                        Nous ne réalisons pas les travaux directement. Nous mettons en relation votre projet avec des artisans partenaires locaux.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Service de Mise en Relation - Rénovation Salle de Bain Toulouse. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                    <a href="cgv.html">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
